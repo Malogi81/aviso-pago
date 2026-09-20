@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicio Suspendido | INTERCONECTATE&amp;WIFI-Tv</title>
+<style>
+    /* Todo el CSS va inline en este mismo archivo a propósito: el firewall del
+       router bloquea cualquier otro tráfico que no sea hacia este servidor, así
+       que esta página NO puede depender de Bootstrap, Google Fonts ni ningún
+       otro recurso externo -- si lo hiciera, se quedaría cargando en blanco. */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0d5c46 0%, #1e8f7a 50%, #2b5876 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        color: #0a4a38;
+    }
+    .card {
+        background: #ffffff;
+        border-radius: 18px;
+        max-width: 480px;
+        width: 100%;
+        padding: 36px 28px;
+        text-align: center;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+        border-top: 6px solid #b3413d;
+    }
+    .icono {
+        font-size: 56px;
+        line-height: 1;
+        margin-bottom: 12px;
+    }
+    h1 {
+        font-size: 22px;
+        color: #b3413d;
+        margin-bottom: 6px;
+    }
+    .empresa {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        color: #6b7d78;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+    p.mensaje {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin-bottom: 22px;
+    }
+    .caja-accion {
+        background: #f0f7f5;
+        border: 1px solid #d1e0db;
+        border-radius: 12px;
+        padding: 18px;
+        margin-bottom: 10px;
+    }
+    .caja-accion p {
+        font-size: 14px;
+        color: #0a4a38;
+        margin-bottom: 10px;
+    }
+    .telefono {
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 700;
+        color: #ffffff;
+        background: #0d5c46;
+        padding: 12px 22px;
+        border-radius: 10px;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+    }
+    .telefono:active { background: #0a4a38; }
+    .nota {
+        font-size: 12px;
+        color: #8a9b96;
+        margin-top: 20px;
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="icono">🔴</div>
+        <h1>Servicio Suspendido</h1>
+        <div class="empresa">INTERCONECTATE&amp;WIFI-Tv</div>
+
+        <p class="mensaje">
+            Tu línea de internet ha sido suspendida temporalmente por falta de pago.
+        </p>
+
+        <div class="caja-accion">
+            <p>Para reactivar tu servicio, acude a pagar en los puntos autorizados o comunícate al teléfono de atención:</p>
+            <a class="telefono" href="tel:+529601143212">960 114 3212</a>
+        </div>
+
+        <p class="nota">
+            Tu servicio se reactivará automáticamente en cuanto se registre tu pago.
+        </p>
+    </div>
+</body>
+</html>
